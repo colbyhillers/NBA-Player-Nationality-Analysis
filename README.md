@@ -1,20 +1,15 @@
-This is your group repo for your final project for COGS108.
+# Research Question
+In the NBA, over the regular season, do international players have a higher Individual Efficiency Metric (EFF), a metric that takes into account points, rebounds, assists, steals, blocks, missed field goals and free throws, turnovers, and games played, than players born in the United States?
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+# Background & Prior Work
+The dominance of international talent such as Luka Doncic, Nikola Jokic, and Giannis Antetokounmpo in the National Basketball Association (NBA) is impossible to ignore. These players, however, were only a few of the standout international players. This past season, six international players were indoctrinated to the All-NBA Team, an honor granted to the overall best players in the league for that season [1]. The presence of international talent in the NBA has also seen a steady incline as, in the league's first season in 1946-47, there were a mere five international players compared to a record 113 international players at the start of the 2016-17 season [1]. After seeing these statistics, it becomes clear that international players are undoubtedly leaving their mark and making history in the league. As fans of the NBA, we became curious and set out to compare the performances of international and national talent in the league.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+In an article from HoopsHype, a branch of USA Today Sports, Frank Urbina constructs a hypothetical roster of players for a USA vs. Rest of the World game with the USA roster consisting of the best USA NBA players and the Rest of the World roster consisting of the best international NBA players. Urbina believes the international team have the advantage in playmaking and rebounding while US players have the edge when it comes to shooting and athleticism [2]. Urbina stresses how close he thinks the matchup would be, but overall believes that team USA would have the slight edge [2]. The matchup Urbina has constructed is only hypothetical and inconclusive in which he makes use of speculation to compare how players would match up against each other. In our study, we plan to attach empirical data to these players to see how they truly compare against each other.
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+On the subject of calculating a player's performance, an article from Watts Basketball discussing how professionals in the league calculate player efficiency will be of use to us. We decided to go with the Efficiency Metric (EFF) which adds up total points, rebounds, assists, blocks, and steals, while also accounting for turnovers and missed field goals and free throws [3]. We will then divide this score by the total amount of minutes played throughout the regular season for each individual player [3]. We plan to do this for each season so we can also track how player performance fluctuates from season to season. This formula aids in our study as it gives us a method of attaching a quantitative value to a player in order to ensure we have a fair comparison.
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+### References:
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+1) https://www.nba.com/news/nba-rosters-feature-109-international-player
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+2) https://hoopshype.com/lists/nba-all-star-game-theoretical-usa-vs-world
